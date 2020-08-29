@@ -1,0 +1,31 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.formContact{
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.camposForm{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+div.camposForm>label{
+    margin-bottom: 10px ;
+}
+
+.alert{
+    background-color: rgb(200, 100, 30) ;
+}
+.mensajeAlerta{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
